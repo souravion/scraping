@@ -8,7 +8,8 @@ baseURL = 'https://www.goodreads.com'
 const outputFile = 'data.json'
 const parsedResults = []
 let pageCounter = 0
-
+const pageLimit = 100
+const characterLength = 200;
 
 console.log(chalk.yellow.bgBlue(`\n  Scraping of ${chalk.underline.bold(url)} initiated...\n`))
 
@@ -22,7 +23,7 @@ const getWebsiteContent = async (url) => {
     
         const authorQuote = $(el).children('.quoteText').html().replace(/<script.*>.*<\/script>/ims, " "); // we remove the script tag from string
         const authorQuoteText = $(authorQuote).text().replace(/(\r\n|\n|\r)/gm, "").trim()// we remove the new line from string
-        if(authorQuoteText.length <=200){
+        if(authorQuoteText.length <=characterLength){
             eachQuotes.authoImg =  $(el).children('a').find('img').attr('src');
             const authoNameText = $(el).children('.quoteText').find('span').text().replace(/(\r\n|\n|\r)/gm, "").trim();// we replace the new like 
             eachQuotes.authoName = authoNameText.replace(/  +/g, ' ') //
@@ -34,15 +35,13 @@ const getWebsiteContent = async (url) => {
     const lestDivElement = $('.leftContainer').children('div').last()
     const eachLink = $(lestDivElement).find('.next_page').attr('href')
 
-
-
     const newLinkForNextPage = baseURL + eachLink
 
     console.log(chalk.cyan(`  Scraping: ${newLinkForNextPage}`))
     
     pageCounter++
 
-    if (pageCounter === 30) {
+    if (pageCounter === pageLimit) {
       exportResults(parsedResults)
       return false
     }
