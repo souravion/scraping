@@ -31,11 +31,10 @@ const getWebsiteContent = async (url) => {
     const $ = cheerio.load(response.data)
     const listItems = $(".quoteDetails");
     listItems.each((idx, el) => {
-        const eachQuotes = { authoName: "", authoImg: "", quote:"", category_id:'' };
+        const eachQuotes = { authoName: "", authoImg: "", quote:"", category_id:'', isFavorite :'', id:'' };
     
         const authorQuote = $(el).children('.quoteText').html().replace(/<script.*>.*<\/script>/ims, " "); // we remove the script tag from string
         const authorQuoteText = $(authorQuote).text().replace(/(\r\n|\n|\r)/gm, "").trim()// we remove the new line from string
-        console.log(authorQuoteText)
         // starting point 
         // Question why we are doing like this because am getting a string 
         //like this “We accept the love we think we deserve.”    ―      Stephen Chbosky
@@ -67,6 +66,9 @@ const getWebsiteContent = async (url) => {
             // replace multiple space with sinlge space
             eachQuotes.quote = finalAuthorQuoteText.replace(/  +/g, ' ') 
             eachQuotes.category_id = 1
+            eachQuotes.isFavorite = false;
+            eachQuotes.id = idx+1;
+
             parsedResults.push(eachQuotes)
         }
       });
