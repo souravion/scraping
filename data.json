@@ -1,0 +1,104 @@
+[
+    {
+        "authoName": "William W. Purkey",
+        "authoImg": "https://images.gr-assets.com/authors/1282396130p2/1744830.jpg",
+        "quote": "“You've gotta dance like there's nobody watching,Love like you'll never be hurt,Sing like there's nobody listening,And live like it's heaven on earth.” ― William W. Purkey",
+        "category_id": 1
+    },
+    {
+        "authoName": "Dr. Seuss",
+        "authoImg": "https://images.gr-assets.com/authors/1193930952p2/61105.jpg",
+        "quote": "“You know you're in love when you can't fall asleep because reality is finally better than your dreams.” ― Dr. Seuss",
+        "category_id": 1
+    },
+    {
+        "authoName": "Elbert Hubbard",
+        "authoImg": "https://images.gr-assets.com/authors/1216826209p2/114059.jpg",
+        "quote": "“A friend is someone who knows all about you and still loves you.” ― Elbert Hubbard",
+        "category_id": 1
+    },
+    {
+        "authoName": "Stephen Chbosky, The Perks of Being a Wallflower",
+        "authoImg": "https://images.gr-assets.com/quotes/1387506524p2/2534.jpg",
+        "quote": "“We accept the love we think we deserve.” ― Stephen Chbosky, The Perks of Being a Wallflower",
+        "category_id": 1
+    },
+    {
+        "authoName": "Andre Gide, Autumn Leaves",
+        "authoImg": "https://images.gr-assets.com/authors/1424119198p2/7617.jpg",
+        "quote": "“It is better to be hated for what you are than to be loved for what you are not.” ― Andre Gide, Autumn Leaves",
+        "category_id": 1
+    },
+    {
+        "authoName": "John Green, The Fault in Our Stars",
+        "authoImg": "https://images.gr-assets.com/authors/1353452301p2/1406384.jpg",
+        "quote": "“As he read, I fell in love the way you fall asleep: slowly, and then all at once.” ― John Green, The Fault in Our Stars",
+        "category_id": 1
+    },
+    {
+        "authoName": "Friedrich Nietzsche",
+        "authoImg": "https://images.gr-assets.com/authors/1651474065p2/1938.jpg",
+        "quote": "“It is not a lack of love, but a lack of friendship that makes unhappy marriages.” ― Friedrich Nietzsche",
+        "category_id": 1
+    },
+    {
+        "authoName": "William Shakespeare, All's Well That Ends Well",
+        "authoImg": "https://images.gr-assets.com/authors/1654446514p2/947.jpg",
+        "quote": "“Love all, trust a few, do wrong to none.” ― William Shakespeare, All's Well That Ends Well",
+        "category_id": 1
+    },
+    {
+        "authoName": "Lao Tzu",
+        "authoImg": "https://images.gr-assets.com/authors/1435903703p2/2622245.jpg",
+        "quote": "“Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.” ― Lao Tzu",
+        "category_id": 1
+    },
+    {
+        "authoName": "Sarah Dessen, The Truth About Forever",
+        "authoImg": "https://images.gr-assets.com/authors/1372181953p2/2987.jpg",
+        "quote": "“There is never a time or place for true love. It happens accidentally, in a heartbeat, in a single flashing, throbbing moment.” ― Sarah Dessen, The Truth About Forever",
+        "category_id": 1
+    },
+    {
+        "authoName": "Robert A. Heinlein, Stranger in a Strange Land",
+        "authoImg": "https://images.gr-assets.com/authors/1192826560p2/205.jpg",
+        "quote": "“Love is that condition in which the happiness of another person is essential to your own.” ― Robert A. Heinlein, Stranger in a Strange Land",
+        "category_id": 1
+    },
+    {
+        "authoName": "Suzanne Collins, Mockingjay",
+        "authoImg": "https://images.gr-assets.com/authors/1630199330p2/153394.jpg",
+        "quote": "“You love me. Real or not real?\"I tell him, \"Real.” ― Suzanne Collins, Mockingjay",
+        "category_id": 1
+    },
+    {
+        "authoName": "William Shakespeare, A Midsummer Night's Dream",
+        "authoImg": "https://images.gr-assets.com/authors/1654446514p2/947.jpg",
+        "quote": "“Love looks not with the eyes, but with the mind,And therefore is winged Cupid painted blind.” ― William Shakespeare, A Midsummer Night's Dream",
+        "category_id": 1
+    },
+    {
+        "authoName": "Nicholas Sparks, A Walk to Remember",
+        "authoImg": "https://images.gr-assets.com/authors/1652281333p2/2345.jpg",
+        "quote": "“Love is like the wind, you can't see it but you can feel it.” ― Nicholas Sparks, A Walk to Remember",
+        "category_id": 1
+    },
+    {
+        "authoName": "Jane Austen, Northanger Abbey",
+        "authoImg": "https://images.gr-assets.com/authors/1651510251p2/1265.jpg",
+        "quote": "“There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.” ― Jane Austen, Northanger Abbey",
+        "category_id": 1
+    },
+    {
+        "authoName": "Jodi Picoult, My Sister's Keeper",
+        "authoImg": "https://images.gr-assets.com/authors/1657141143p2/7128.jpg",
+        "quote": "“You don't love someone because they're perfect, you love them in spite of the fact that they're not.” ― Jodi Picoult, My Sister's Keeper",
+        "category_id": 1
+    },
+    {
+        "authoName": "Marilyn Monroe",
+        "authoImg": "https://images.gr-assets.com/authors/1436929110p2/82952.jpg",
+        "quote": "“If you can make a woman laugh, you can make her do anything.” ― Marilyn Monroe",
+        "category_id": 1
+    }
+]

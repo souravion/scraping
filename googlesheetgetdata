@@ -1,0 +1,23 @@
+https://stackoverflow.com/questions/64237452/how-to-add-pagination-parameter-in-google-script
+function doGet(){ 
+var doc = SpreadsheetApp.getActiveSpreadsheet();
+var sheet = doc.getSheetByName('love');
+var range = sheet.getDataRange()
+var values = range.getValues();
+
+
+ 
+var output=[];
+for(var i=0;i<values.length;i++){
+  var row = values[i]
+  var records= {};
+  records['name'] = row[0];
+  records['img'] = row[1];
+  records['quote'] = row[2];
+  records['category_id'] = row[3];
+  output.push(records);
+
+}
+console.log(output)
+return ContentService.createTextOutput(JSON.stringify({data: output.slice(1)})).setMimeType(ContentService.MimeType.JSON);
+}

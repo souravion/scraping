@@ -1,0 +1,152 @@
+[
+  {
+    "categoryName": "Love Quotes",
+    "id": 1,
+    "tag": "love"
+  },
+  {
+    "categoryName": "Life Quotes",
+    "id": 2,
+    "tag": "life"
+  },
+  {
+    "categoryName": "Inspirational Quotes",
+    "id": 3,
+    "tag": "inspirational"
+  },
+  {
+    "categoryName": "Humor Quotes",
+    "id": 4,
+    "tag": "humor"
+  },
+  {
+    "categoryName": "Philosophy Quotes",
+    "id": 5,
+    "tag": "philosophy"
+  },
+  {
+    "categoryName": "God Quotes",
+    "id": 6,
+    "tag": "god"
+  },
+  {
+    "categoryName": "Inspirational Quotes Quotes",
+    "id": 7,
+    "tag": "inspirational-quotes"
+  },
+  {
+    "categoryName": "Truth Quotes",
+    "id": 8,
+    "tag": "truth"
+  },
+  {
+    "categoryName": "Wisdom Quotes",
+    "id": 9,
+    "tag": "wisdom"
+  },
+  {
+    "categoryName": "Poetry Quotes",
+    "id": 10,
+    "tag": "poetry"
+  },
+  {
+    "categoryName": "Romance Quotes",
+    "id": 11,
+    "tag": "romance"
+  },
+  {
+    "categoryName": "Death Quotes",
+    "id": 12,
+    "tag": "death"
+  },
+  {
+    "categoryName": "Happiness Quotes",
+    "id": 13,
+    "tag": "happiness"
+  },
+  {
+    "categoryName": "Hope Quotes",
+    "id": 14,
+    "tag": "hope"
+  },
+  {
+    "categoryName": "Faith Quotes",
+    "id": 15,
+    "tag": "faith"
+  },
+  {
+    "categoryName": "Inspiration Quotes",
+    "id": 16,
+    "tag": "inspiration"
+  },
+  {
+    "categoryName": "Quotes Quotes",
+    "id": 17,
+    "tag": "quotes"
+  },
+  {
+    "categoryName": "Life Lessons Quotes",
+    "id": 18,
+    "tag": "life-lessons"
+  },
+  {
+    "categoryName": "Writing Quotes",
+    "id": 19,
+    "tag": "writing"
+  },
+  {
+    "categoryName": "Motivational Quotes",
+    "id": 20,
+    "tag": "motivational"
+  },
+  {
+    "categoryName": "Religion Quotes",
+    "id": 21,
+    "tag": "religion"
+  },
+  {
+    "categoryName": "Spirituality Quotes",
+    "id": 22,
+    "tag": "spirituality"
+  },
+  {
+    "categoryName": "Relationships Quotes",
+    "id": 23,
+    "tag": "relationships"
+  },
+  {
+    "categoryName": "Success Quotes",
+    "id": 24,
+    "tag": "success"
+  },
+  {
+    "categoryName": "Life Quotes Quotes",
+    "id": 25,
+    "tag": "life-quotes"
+  },
+  {
+    "categoryName": "Love Quotes Quotes",
+    "id": 26,
+    "tag": "love-quotes"
+  },
+  {
+    "categoryName": "Time Quotes",
+    "id": 27,
+    "tag": "time"
+  },
+  {
+    "categoryName": "Knowledge Quotes",
+    "id": 28,
+    "tag": "knowledge"
+  },
+  {
+    "categoryName": "Science Quotes",
+    "id": 29,
+    "tag": "science"
+  },
+  {
+    "categoryName": "Motivation Quotes",
+    "id": 30,
+    "tag": "motivation"
+  }
+]
